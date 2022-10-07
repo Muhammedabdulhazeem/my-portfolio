@@ -10,7 +10,6 @@ const Technologies = () =>  (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range of technologies in the the web development world.
-      From Front-end To Design
     </SectionText>
     <List>
       <ListItem>
@@ -21,6 +20,9 @@ const Technologies = () =>  (
             Experience with <br />
             React.js <br />
             Firebase <br />
+            Next JS <br />
+            Tailwind <br />
+            Sanity <br />
             Figma
           </ListParagraph>
         </ListContainer>

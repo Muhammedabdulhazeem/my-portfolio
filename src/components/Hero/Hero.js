@@ -3,6 +3,7 @@ import React from 'react';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
+import { myCV } from '../../constants/constants';
 
 const Hero = ( ) => (
   <Section row nopadding>
@@ -12,9 +13,9 @@ const Hero = ( ) => (
         I'm Muhammed Abdulhazeem
       </SectionTitle>
       <SectionText>
-        I'm a frontend developer with a year experience and zeal to learn new things.
+        I'm a frontend developer focused on creating beautiful and user friendly applications while writing clean codes.
       </SectionText>
-      <Button onClick={() => window.location = 'https://googgle.com'} >Learn More</Button>
+      <a href={myCV} download><Button >Download CV</Button></a> 
     </LeftSection>
   </Section>
 );

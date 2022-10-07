@@ -25,7 +25,7 @@ export const Boxes = styled.div`
 export const Box = styled.div`
   background: #212D45;
   border-radius: 12px;
-  height: 144px;
+  height: 150px;
   padding: 24px;
   @media ${props => props.theme.breakpoints.lg} {
     height: 210px;
@@ -70,6 +70,7 @@ export const BoxText = styled.p`
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
+  width: 100%
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
 
